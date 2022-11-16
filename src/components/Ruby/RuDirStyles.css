@@ -1,0 +1,175 @@
+.rudircon{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 10px;
+    width: 90%;
+    background-color: rgb(69, 171, 238);
+}
+
+.rutitle h2 {
+    text-align: center;
+    color:rgb(14, 81, 144);
+    font-size: 2rem;
+    padding-bottom: 5px;
+    font-family: serif;
+    font-style: italic;
+}
+
+.ruheaderInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15rem;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.ruheaderInfo p {
+    font-family: serif;
+    text-align: left;
+    font-size: 25px;
+    color: rgb(14, 81, 144);
+    padding: 20px;
+    font-weight: bold;
+}
+
+.rucons {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.5rem;
+    margin-right: 10rem;
+}
+
+.rucons li {
+    padding-bottom: 20px;
+}
+
+.rucons .nums {
+    margin-left: 4rem;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.rucons .rulinks {
+    margin-left: 4rem;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.rucons .nums li {
+   padding-top: 10px;
+   text-align: left;
+   font-style: italic;
+   font-family: serif;
+   font-size: 20px;
+   color:  black;
+}
+
+.rucons .rulinks li {
+    padding-top: 8px;
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    color: rgb(14, 81, 144);
+}
+
+.line {
+    border-bottom: 5px dotted black;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.rucont{
+    border: 3px solid black;
+    background-color: grey;
+}
+
+@media screen and (max-width: 940px) {
+    .rudircon{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        padding: 10px;
+        width: 90%;
+    }
+    
+    .rutitle h2 {
+        text-align: center;
+        font-size: 2rem;
+        padding-bottom: 5px;
+        font-family: serif;
+        font-style: italic;
+    }
+    
+    .ruheaderInfo{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 0;
+        border-bottom: 3px solid black;
+        border-right: 0px solid black;
+    }
+    
+    .ruheaderInfo p {
+        font-style: italic;
+        font-family: serif;
+        text-align: left;
+        font-size: 20px;
+        padding: 5px;
+    }
+    
+    .rucons {
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .rucons li {
+        padding-bottom: 5px;
+    }
+    
+    .rucons .nums {
+        margin-left: 0.75rem;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .rucons .rulinks {
+        margin-left: 1.5rem;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-right: 0.5rem;
+    }
+    
+    .rucons .nums li {
+       padding-top: 10px;
+       text-align: left;
+       font-style: italic;
+       font-family: serif;
+       font-size: 12px;
+    }
+    
+    .rucons .rulinks li {
+        padding-top: 11px;
+        padding-bottom: 15px;
+        text-align: center;
+        font-family: serif;
+        font-size: 14px;
+    }
+    
+    .line {
+        border-bottom: 5px dotted black;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .rucont{
+        border: 3px solid black;
+    }
+}

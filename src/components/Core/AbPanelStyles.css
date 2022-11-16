@@ -1,0 +1,86 @@
+.abcon{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 10px;
+    width: 50%;
+    background-color: rgb(69, 171, 238);
+}
+
+.horz-form{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(100, 135, 100);
+    background-color: grey;
+}
+
+.jacob-img{
+    width:100%;
+    height:100%;
+    max-width:125px;
+    max-height:195px;
+}
+
+.projectTitle{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.projectTitle h1 {
+    color: rgb(14, 81, 144);
+}
+
+.resume {
+    margin: auto;
+}
+
+.resume a {
+    color: rgb(14, 81, 144);
+    font-family: sans-serif;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.abcontent p {
+    color: black;
+}
+
+.abcontent {
+    padding-top: 10px;
+    font-style: italic;
+    font-family: fantasy;
+    margin: auto;
+    text-align: left;
+}
+
+@media screen and (max-width: 1040px){
+    
+    .jacob-img{
+        width:100%;
+        height:100%;
+        max-width:105px;
+        max-height:165px;
+    }
+    
+    .projectTitle{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: x-small;
+        font-style: italic;
+        font-family: fantasy;
+        font-weight: 900;
+    }
+    .abcontent p {
+        font-size: .75rem;
+    }
+}

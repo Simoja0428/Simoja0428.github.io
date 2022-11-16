@@ -1,0 +1,237 @@
+.ru1lcon{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 10px;
+    width: 50%;
+    background-color: rgb(69, 171, 238);
+}
+
+.ru1sectionHeader {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: left;
+    font-size: 18px;
+    color: rgb(14, 81, 144);
+    padding: 5px;
+    padding-top: 20px;;
+}
+
+.ru1text {
+    font-family: serif;
+    text-align: left;
+    font-size: 14px;
+    color:  black;
+    padding: 5px;
+}
+
+.anshorz {
+    display: flex;
+    flex-direction: row;
+}
+
+.ru1code {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 10px;
+    width: 90%;
+    background-color: grey;
+}
+
+.ru1code p {
+    font-family: serif;
+    text-align: left;
+    font-size: 14px;
+    color:  black;
+    padding: 5px;
+    font-weight: 1000;
+}
+
+.ru1out {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 10px;
+    width: 90%;
+    background-color: grey;
+    font-weight: 500;
+}
+
+.ru1out p {
+    font-family:'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 14px;
+    color:  black;
+    padding: 5px;
+}
+
+.ru1blocker {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 10px;
+    max-width: 500px;
+    max-height: 80vh;
+    width: 90%;
+    height: 50%;
+    background-color: grey;
+}
+
+.ru1btnt {
+    max-width: 100px;
+    max-height: 25vh;
+    padding: 8px 25px;
+    text-transform: uppercase;
+    background: rgb(21, 184, 15);
+    color: black;
+    border: 1px solid white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.ru1btnf {
+    padding-left: 375px;
+    padding-top: 25px;
+}
+
+.ru1btnt p {
+    font-size: 12px;
+    color: black;
+    text-align: left;
+}
+
+.ru1question {
+    font-family:'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 12px;
+    color:  black;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 700;
+}
+
+.ru1answer {
+    font-family:'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 14px;
+    color:  black;
+    margin-top: 25px;
+    margin-left: 50px;
+
+}
+
+
+@media screen and (max-width: 980px){
+
+    .ru1lcon{
+        max-width: 100%;
+        overflow-x: hidden;
+        width:100%;
+        height: 100%;
+        max-height: 100vh;
+    }
+
+    .ru1code {
+        padding: 10px;
+        width: 100%;
+        background-color: grey;
+    }
+
+    .ru1code p {
+        font-family: serif;
+        text-align: left;
+        font-size: 12px;
+        color:  black;
+        padding: 5px;
+        font-weight: 1000;
+    }
+
+    .ru1out {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        padding: 10px;
+        width: 100%;
+        background-color: grey;
+        font-weight: 500;
+    }
+
+    .ru1out p {
+        font-family:'Courier New', Courier, monospace;
+        text-align: left;
+        font-size: 12px;
+        color:  black;
+        padding: 5px;
+    }
+
+    .ru1blocker {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        padding: 10px;
+        max-width: 500px;
+        max-height: 80vh;
+        width: 100%;
+        height: 50%;
+        background-color: grey;
+    }
+
+    .ru1btnt {
+        max-width: 100px;
+        max-height: 25vh;
+        padding: 7px 20px;
+        text-transform: uppercase;
+        background: rgb(21, 184, 15);
+        color: black;
+        border: 1px solid white;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .ru1btnf {
+        padding-left: 260px;
+        padding-top: 25px;
+    }
+
+    .ru1btnt p {
+        font-size: 12px;
+        color: black;
+        text-align: left;
+    }
+
+    .ru1question {
+        font-family:'Courier New', Courier, monospace;
+        text-align: left;
+        font-size: 12px;
+        color:  black;
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .ru1answer {
+        font-family:'Courier New', Courier, monospace;
+        text-align: left;
+        font-size: 14px;
+        color:  black;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-right: 75px;
+    }
+}
