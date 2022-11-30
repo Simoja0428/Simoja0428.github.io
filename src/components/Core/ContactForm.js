@@ -7,15 +7,15 @@ export const ContactForm = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    document.getElementById("nameF").value = " ";
-    document.getElementById("emailF").value = " ";
-    document.getElementById("messageF").value = " \n\tEmail successfully sent to jsimonek@carthage.edu! \n\tYou can expect a response shortly! Thank you \n\tfor your feedback on and usage of Code Mine.\n\n\t\t -Jacob Simonek Carthage College 2022'";
     emailjs.sendForm('service_fs3319u', 'template_kc3b6kt', form.current, 'GC5VjvWQcWdYjLBPO')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
+      document.getElementById("nameF").value = " ";
+      document.getElementById("emailF").value = " ";
+      document.getElementById("messageF").value = " \n\tEmail successfully sent to jsimonek@carthage.edu! \n\tYou can expect a response shortly! Thank you \n\tfor your feedback on and usage of Code Mine.\n\n\t\t -Jacob Simonek Carthage College 2022'";
   };
   return (
     <div className='masker'>
