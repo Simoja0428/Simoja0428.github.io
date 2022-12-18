@@ -1,6 +1,6 @@
 import "./FooterStyles.css";
 import React from 'react';
-import {FaHome, FaPhone, FaMailBulk, FaFacebook, FaLinkedin, FaTwitter} from "react-icons/fa";
+import {FaHome, FaPhone, FaMailBulk} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className="location">
                     <FaHome size={20} style={{ color:"#fff", marginRight: "2rem"}} />
                     <div>
-                        <p>2001 Alford Park Dr. Kenosha, WI. 53143</p>
+                        <p>8545 22nd Ave Apt 1, Kenosha, WI. 53143</p>
                     </div>
                 </div>
                 <div className = "phone">
