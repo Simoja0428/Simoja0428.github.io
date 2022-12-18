@@ -3,6 +3,7 @@ import Home from "./routes/Home";
 import About from "./routes/About";
 import Project from "./routes/Project";
 import Contact from "./routes/Contact";
+import Login from "./routes/Login";
 import CLH from "./Croutes/CLH";
 import C1 from "./Croutes/C1";
 import C2 from "./Croutes/C2";
@@ -41,6 +42,7 @@ function App() {
       <Route path="/about" element={<About />}/>
       <Route path="/contact" element={<Contact />}/>
       <Route path="/lessons" element={<Project />}/>
+      <Route path="/login" element= {<Login />}/>
       <Route path="/lessons/java" element= {<JavaLH />}/>
       <Route path="/lessons/ruby" element= {<RubyLH />}/>
       <Route path="/lessons/c" element= {<CLH />}/>
