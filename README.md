@@ -26,13 +26,13 @@ Email: jsimonek@carthage.edu
 
 Mail: 8545 22nd Ave, Kenosha, WI. 53143
 
-# Updates:
+# Updates
 
-## 1.0.0 (December 6th, 2022)
+### 1.0.0 (December 6th, 2022)
 
 Initial launch of the web application for 2022 Fall Senior Thesis presentaton. The applicaton is compatiable on both mobile and web devices for users to access. The scheduled presentation will talk about the proccess for developing this application and the research involved. The site, in its current form, hosts 25 different lessons in Java, C++, and Ruby for users to learn introductory programming skills.
 
-## 1.0.1 (December 21st, 2022)
+### 1.0.1 (December 21st, 2022)
 
 -Fixed glitch in contact form emails that was causing messages to send as null fields
 
