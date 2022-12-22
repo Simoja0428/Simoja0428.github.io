@@ -13,7 +13,9 @@ GoDaddy - DNS Provider
 ## Dependencies:
 
 Emailjs             -   Contact Form
+
 React-Router-Dom    -   Web Page Routing
+
 React-pdf           -   PDF Rendering
 
 # Contact Information
@@ -33,9 +35,13 @@ Initial launch of the web application for 2022 Fall Senior Thesis presentaton. T
 ## 1.0.1 (December 21st, 2022)
 
 -Fixed glitch in contact form emails that was causing messages to send as null fields
+
 -Updated address information in footer of webpages
+
 -Generated ssl certificate for www.learncodemine.com, which no longer redirects to codemine.vercel.app
+
 -Updated tab information to display CodeMine instead of React-App on mobile and web devices
+
 -Updated tab icon and description of CodeMine for users on mobile devices
 
 
