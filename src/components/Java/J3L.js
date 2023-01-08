@@ -108,7 +108,7 @@ const J3L = () => {
         <div className="j3out">
             <p>
                 Value of mul: 12 <br />
-                Value of dMul: 6.0 <br />
+                Value of dMul: 3.0 <br />
                 Value of wMul: 12 <br />
             </p>
         </div>
@@ -123,7 +123,7 @@ const J3L = () => {
         <div className="j3code">
             <p>
                 int div = 4 / 2; <br />
-                double dDiv = 4.5 / 3; <br />
+                double dDiv = 4.5 / 3.0; <br />
                 int wDiv = 4.5 / 3; <br />
             </p>
         </div>

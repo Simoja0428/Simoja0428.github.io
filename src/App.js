@@ -3,6 +3,7 @@ import Home from "./routes/Home";
 import About from "./routes/About";
 import Project from "./routes/Project";
 import Contact from "./routes/Contact";
+import {Route, Routes} from "react-router-dom";
 import CLH from "./Croutes/CLH";
 import C1 from "./Croutes/C1";
 import C2 from "./Croutes/C2";
@@ -31,7 +32,15 @@ import J5 from "./Javaroutes/J5";
 import J6 from "./Javaroutes/J6";
 import J7 from "./Javaroutes/J7";
 import J8 from "./Javaroutes/J8";
-import {Route, Routes} from "react-router-dom";
+import PythonLH from "./Pythonroutes/PythonLH";
+import P1 from "./Pythonroutes/P1";
+import P2 from "./Pythonroutes/P2";
+import P3 from "./Pythonroutes/P3";
+import P4 from "./Pythonroutes/P4";
+import P5 from "./Pythonroutes/P5";
+import P6 from "./Pythonroutes/P6";
+import P7 from "./Pythonroutes/P7";
+import P8 from "./Pythonroutes/P8";
 
 function App() {
   return (
@@ -69,6 +78,15 @@ function App() {
       <Route path="/lessons/java/j6" element= {<J6 />}/>
       <Route path="/lessons/java/j7" element= {<J7 />}/>
       <Route path="/lessons/java/j8" element= {<J8 />}/>
+      <Route path="/lessons/python" element={<PythonLH />}/>
+      <Route path="/lessons/python/p1" element={<P1 />}/>
+      <Route path="/lessons/python/p2" element={<P2 />}/>
+      <Route path="/lessons/python/p3" element={<P3 />}/>
+      <Route path="/lessons/python/p4" element={<P4 />}/>
+      <Route path="/lessons/python/p5" element={<P5 />}/>
+      <Route path="/lessons/python/p6" element={<P6 />}/>
+      <Route path="/lessons/python/p7" element={<P7 />}/>
+      <Route path="/lessons/python/p8" element={<P8 />}/>
     </Routes>
     </>
   );

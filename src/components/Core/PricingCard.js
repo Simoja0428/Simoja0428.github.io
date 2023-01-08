@@ -4,6 +4,7 @@ import React from 'react';
 import Java from "../assets/j.webp";
 import Ruby  from "../assets/ru.jpeg";
 import C from "../assets/c.png";
+import Python from "../assets/python.png";
 
 const PricingCard = () => {
   return (
@@ -29,6 +30,13 @@ const PricingCard = () => {
                 <img className= "itt" src={C} alt="C" />
                 <p className="ccon"> Get an introduction into a language fundamental to understanding Computer Science. </p>
                 <Link to="/lessons/c" className="btn"> Lessons</Link>
+            </div>
+            <div className = "card">
+                <h3>   Python  </h3>
+                <span className = "bar"></span>
+                <img className= "itt" src={Python} alt="Python" />
+                <p className="ccon"> Learn the fundamentals of an interpreted language at the heart of modern development. </p>
+                <Link to="/lessons/python" className="btn"> Lessons</Link>
             </div>
         </div>
 

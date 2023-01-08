@@ -1,0 +1,246 @@
+.p7lcon{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 10px;
+    width: 50%;
+    background-color: rgb(69, 171, 238);
+}
+
+.p7link {
+    font-family: serif;
+    text-align: left;
+    font-size: 14px;
+    color:  black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.p7sectionHeader {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: left;
+    font-size: 18px;
+    color: rgb(14, 81, 144);
+    padding: 5px;
+    padding-top: 20px;;
+}
+
+.p7text {
+    font-family: serif;
+    text-align: left;
+    font-size: 14px;
+    color:  black;
+    padding: 5px;
+}
+
+.anshorz {
+    display: flex;
+    flex-direction: row;
+}
+
+.p7code {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 10px;
+    width: 90%;
+    background-color: grey;
+}
+
+.p7code p {
+    font-family: serif;
+    text-align: left;
+    font-size: 14px;
+    color:  black;
+    padding: 5px;
+    font-weight: 1000;
+}
+
+.p7out {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 10px;
+    width: 90%;
+    background-color: grey;
+    font-weight: 500;
+}
+
+.p7out p {
+    font-family:'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 14px;
+    color:  black;
+    padding: 5px;
+}
+
+.p7blocker {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 10px;
+    max-width: 500px;
+    max-height: 80vh;
+    width: 90%;
+    height: 50%;
+    background-color: grey;
+}
+
+.p7btnt {
+    max-width: 100px;
+    max-height: 25vh;
+    padding: 8px 25px;
+    text-transform: uppercase;
+    background: rgb(21, 184, 15);
+    color: black;
+    border: 1px solid white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.p7btnf {
+    padding-left: 375px;
+    padding-top: 25px;
+}
+
+.p7btnt p {
+    font-size: 12px;
+    color: black;
+    text-align: left;
+}
+
+.p7question {
+    font-family:'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 12px;
+    color:  black;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 700;
+}
+
+.p7answer {
+    font-family:'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 14px;
+    color:  black;
+    margin-top: 25px;
+    margin-left: 50px;
+
+}
+
+
+@media screen and (max-width: 980px){
+
+    .p7lcon{
+        max-width: 100%;
+        overflow-x: hidden;
+        width:100%;
+        height: 100%;
+        max-height: 100vh;
+    }
+
+    .p7code {
+        padding: 10px;
+        width: 100%;
+        background-color: grey;
+    }
+
+    .p7code p {
+        font-family: serif;
+        text-align: left;
+        font-size: 12px;
+        color:  black;
+        padding: 5px;
+        font-weight: 1000;
+    }
+
+    .p7out {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        padding: 10px;
+        width: 100%;
+        background-color: grey;
+        font-weight: 500;
+    }
+
+    .p7out p {
+        font-family:'Courier New', Courier, monospace;
+        text-align: left;
+        font-size: 12px;
+        color:  black;
+        padding: 5px;
+    }
+
+    .p7blocker {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        padding: 10px;
+        max-width: 500px;
+        max-height: 80vh;
+        width: 100%;
+        height: 50%;
+        background-color: grey;
+    }
+
+    .p7btnt {
+        max-width: 100px;
+        max-height: 25vh;
+        padding: 7px 20px;
+        text-transform: uppercase;
+        background: rgb(21, 184, 15);
+        color: black;
+        border: 1px solid white;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .p7btnf {
+        padding-left: 260px;
+        padding-top: 25px;
+    }
+
+    .p7btnt p {
+        font-size: 12px;
+        color: black;
+        text-align: left;
+    }
+
+    .p7question {
+        font-family:'Courier New', Courier, monospace;
+        text-align: left;
+        font-size: 12px;
+        color:  black;
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .p7answer {
+        font-family:'Courier New', Courier, monospace;
+        text-align: left;
+        font-size: 14px;
+        color:  black;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-right: 75px;
+    }
+}
