@@ -56,8 +56,8 @@ Initial launch of the web application for 2022 Fall Senior Thesis presentaton. T
   * Methods
   * Classes
   
-- Fixed minor gramatical/spelling errors in multiple Java lesson modules
+-Fixed minor gramatical/spelling errors in multiple Java lesson modules
 
-- Readjusted languages menu to a 2x2 grid from a 3x1 now that there are 4 languages
+-Readjusted languages menu to a 2x2 grid from a 3x1 now that there are 4 languages
 
 
