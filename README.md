@@ -44,4 +44,20 @@ Initial launch of the web application for 2022 Fall Senior Thesis presentaton. T
 
 -Updated tab icon and description of CodeMine for users on mobile devices
 
+### 1.0.2 (January 8th, 2023)
+
+-Added introductory Python coding lessons to CodeMine which include lessons on:
+  * Hello World!
+  * Variables
+  * Operators
+  * Conditionals
+  * Loops
+  * Lists
+  * Methods
+  * Classes
+  
+- Fixed minor gramatical/spelling errors in multiple Java lesson modules
+
+- Readjusted languages menu to a 2x2 grid from a 3x1 now that there are 4 languages
+
 
