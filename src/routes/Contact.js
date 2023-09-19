@@ -8,7 +8,7 @@ export const Contact = () => {
   return (
     <div>
       <Navbar />
-      <HeroImg2 heading = "Contact CodeMine" text="Bounce ideas off the devloper of this site to help make CodeMine better!"/>
+      <HeroImg2 heading = "Contact CodeMine" text="Bounce ideas off the developer of this site to help make CodeMine better!"/>
       <ContactForm />
       <p className="titleLine"></p>
       <Footer />
