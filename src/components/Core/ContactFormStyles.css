@@ -44,6 +44,12 @@
     margin-bottom: 1rem;
 }
 
+.linka {
+    font-style: italic;
+    color: rgb(26, 39, 145);
+    text-decoration: underline;
+}
+
 .horz label{
     padding-left: 60px;
 }
