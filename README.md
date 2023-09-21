@@ -22,7 +22,7 @@ React-pdf           -   PDF Rendering
 
 Cell: (708) 267-3342
 
-Email: jsimonek@carthage.edu
+Email: jacobsimonek19@gmail.com
 
 Mail: 8545 22nd Ave, Kenosha, WI. 53143
 
@@ -60,4 +60,12 @@ Initial launch of the web application for 2022 Fall Senior Thesis presentaton. T
 
 -Readjusted languages menu to a 2x2 grid from a 3x1 now that there are 4 languages
 
+### 1.0.3 (September 21st, 2023)
 
+-Updated the UI of the contact form to be more user friendly to mobile users
+
+-Updated contact information in the footer to reflect current email address
+
+-Implemented a spam lock on the contact form to prevent users from submitting the form multiple times without valid content
+
+-Fixed minor gramatical/spelling errors on the contact form and footer.
