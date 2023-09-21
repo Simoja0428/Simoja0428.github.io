@@ -31,8 +31,11 @@
     margin: auto;
     text-align: center;
     font-family: sans-serif;
-    font-size: large;
+    font-weight: 500;
+    font-size: 32px;
     color: rgb(14, 81, 144);
+    padding-bottom: 20px;
+    padding-top: 15px;
 }
 
 .titleLine {
@@ -75,21 +78,34 @@ label {
 
 .horz input{
     padding-left: 10px;
-    margin-top: 2px;
+    margin-top: 12px;
     background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid black;
     font-size: 12px;
     height: 25px;
 }
 
+.spam-warning label{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+.spam-warning{
+    text-align: center;
+}
+
 .sub {
     position: relative;
-    padding-top: 10px;
+    padding: 8px 5px;
     left: 37rem;
 }
 
 .sub input {
-    background-color: rgb(165, 157, 157);
+    background-color: rgb(85, 128, 168);
+    padding: 4px 12px;
+    font-size: medium;
+    font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 @media screen and (max-width: 980px){
@@ -117,6 +133,13 @@ label {
         display: flex;
         position: relative;
     }
+
+    .ms label {
+        font-size: small;
+        font-family: serif;
+        color: rgb(14, 81, 144);
+        font-family: fantasy;
+    }
     
     .form-container h4 {
         margin: auto;
@@ -126,6 +149,7 @@ label {
 
     .ms {
         padding-top: 2.5rem;
+        margin-left: auto;
     }
     
     .titleLine {
@@ -139,6 +163,9 @@ label {
     
     .horz label{
         padding-left: 5px;
+        font-family: fantasy;
+        font-size: small;
+        color: rgb(14, 81, 144);
     }
 
     label {
@@ -163,6 +190,21 @@ label {
     .sub {
         position: relative;
         padding-top: 10px;
-        left: 20rem;
+        left: 23.5rem;
     } 
+    .sub input {
+        background-color: rgb(85, 128, 168);
+        padding: 2px 6px;
+        font-size: x-small;
+        font-style: italic;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+    .spam-warning label{
+        color: red;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 500;
+    }
+    .spam-warning{
+        text-align: center;
+    }
 }
