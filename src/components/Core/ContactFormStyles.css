@@ -130,7 +130,7 @@ label {
     
     .center-too{
         padding-top: 10px;
-        padding-right: 5px;
+        padding-right: 15px;
         display: flex;
         position: relative;
     }
@@ -186,6 +186,7 @@ label {
     
     .horz input{
         font-size: 9px;
+        margin-top: 20px;
     }
     
     .sub {
