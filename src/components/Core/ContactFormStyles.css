@@ -121,7 +121,6 @@ label {
     .horz{
         display: flex;
         flex-direction: row;
-        padding-left: 20px;
     }
     
     .elements{
@@ -131,6 +130,7 @@ label {
     
     .center-too{
         padding-top: 10px;
+        padding-right: 5px;
         display: flex;
         position: relative;
     }
@@ -164,7 +164,6 @@ label {
     
     .horz label{
         padding-left: 5px;
-        padding-top: 18px;
         font-family: fantasy;
         font-size: small;
         color: rgb(14, 81, 144);
@@ -192,7 +191,7 @@ label {
     .sub {
         position: relative;
         padding-top: 10px;
-        left: 18rem;
+        left: 20rem;
     } 
     .sub input {
         background-color: rgb(85, 128, 168);
