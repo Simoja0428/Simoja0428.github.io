@@ -7,13 +7,14 @@ export const ContactForm = () => {
   
   const sendEmail = (e) => {
     e.preventDefault();
-    if (document.getElementById("nameF").value == "" || document.getElementById("emailF") == "" || document.getElementById("messageF") == "" || document.getElementById("messageF") == " \n\tEmail successfully sent to jsimonek@carthage.edu! \n\tYou can expect a response shortly! Thank you \n\tfor your feedback on and usage of Code Mine.\n\n\t\t -Jacob Simonek Carthage College 2023'")
+    if (document.getElementById("nameF").value == "" || document.getElementById("emailF").value == "" || document.getElementById("messageF").value == "" || document.getElementById("messageF").value == " \n\tEmail successfully sent! ")
     {
+      document.getElementById("messageF").value = "";
       document.getElementById("spam").innerHTML = "Please do not spam the form!";
     }
     else
     {
-      document.getElementById("spam").innerHTML = " ";
+      document.getElementById("spam").innerHTML = "";
       emailjs.sendForm('service_fs3319u', 'template_kc3b6kt', form.current, 'GC5VjvWQcWdYjLBPO')
       .then((result) => {
           console.log(result.text);
@@ -22,7 +23,7 @@ export const ContactForm = () => {
       });
       document.getElementById("nameF").value = "";
       document.getElementById("emailF").value = "";
-      document.getElementById("messageF").value = " \n\tEmail successfully sent! \n\tYou can expect a response shortly! Thank you \n\tfor your feedback on and usage of Code Mine.\n\n\t\t -Jacob Simonek Carthage College 2022'";
+      document.getElementById("messageF").value = " \n\tEmail successfully sent! ";
     }
   };
   return (
