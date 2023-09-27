@@ -1,7 +1,7 @@
 import "./AbPanelStyles.css";
 import React from 'react';
 import Jacob from "../assets/jacob bio.jpg";
-import Resume from "../assets/Resume.pdf";
+import Resume from "../assets/SimonekResume.pdf";
 
 const AbPanel = () => {
   return (
